@@ -1,28 +1,50 @@
 body {
-    height: 100vh;
     font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
     background-color: rgb(255, 255, 255);
-  
-  }
 
-
-
-
-.container-fluid {
-    background-color: rgb(255, 255, 255);
 }
 
 .img-thumbnail {
-
     border: 0px;
+}
+
+.container-background {
+    height: 80vh;
+    background-image: url(https://media.istockphoto.com/photos/burning-white-sage-bundle-picture-id1313207011?k=20&m=1313207011&s=612x612&w=0&h=ll0NDKbjqUNjW4Y9gbhj2liQNSd4JoFTxWt2iePnW3M=);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: solid 2px;
+
+}
+
+.bg-white {
+    --bs-bg-opacity: 70%;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+
+  }
+  
+
+.container-fluid {
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px;
 }
 
 
 .img-fluid {
     max-width: 100%;
-    height: auto;
 }
 
+.container-row {
+    height: 80vh;
+    border: solid 2px;
+    
+}
+
+h1 {
+    text-align: center;
+}
 
 h5 {
     font-family: 'Courier New', Courier, monospace;
@@ -37,4 +59,3 @@ p {
     color: rgb(231, 234, 235);
     text-align: center;
 }
-
